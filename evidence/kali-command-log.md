@@ -34,7 +34,6 @@ sudo nmcli connection add \
   con-name Lab-HostOnly \
   ipv4.method manual \
   ipv4.addresses 192.168.41.7/24 \
-  ipv4.never-default yes \
   ipv6.method disabled
 
 sudo nmcli connection up Lab-HostOnly
